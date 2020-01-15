@@ -1,10 +1,10 @@
 html {
-  background-color: #ebe6e6;
+  background-color: white;
   font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+
 }
 
 h1 {
-  color: #393e46;
   font-size: 120px;
 }
 
@@ -13,7 +13,13 @@ h3 {
   font-size: 50px;
 }
 
+.front{
+
+  color: black;
+}
+
 body {
+  margin: 0;
   text-align: center;
 }
 
@@ -22,6 +28,26 @@ img {
 }
 
 .jennis {
-  margin-top: 250px;
-  margin-bottom: 210px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.insetshadow {
+    margin-bottom: 30px;
+    margin-left: 0;
+    padding-bottom: 20px;
+    color: white;
+    background-color: #2d2d2d;
+    letter-spacing: .1em;
+    text-shadow:
+      -10px -10px 15px #111,
+      20px 20px 20px #363636;
+  }
+
+hr {
+  margin-top: 225px;
+  width: 40%;
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0));
 }
