@@ -39,7 +39,6 @@ transition: all 0.3s ease 0s;
 }
 
 html {
-  background-color: #e6f5ff;
   font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
 }
 
@@ -86,10 +85,6 @@ img {
   box-shadow: 10px 10px 30px rgba(0,0,3,3);
 }
 
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+label, input, textarea {
+  display: block;
 }
