@@ -12,10 +12,11 @@ hr {
 }
 
 .example_e {
-border: none;
-background: #404040;
-color: #b9d4f1;
-font-weight: 100;
+font-size: 20px;
+text-decoration-style: wavy;
+background: black;
+color: #e6f5ff;
+font-weight: bold;
 padding: 20px;
 border-radius: 6px;
 display: inline-block;
