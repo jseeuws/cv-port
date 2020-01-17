@@ -11,33 +11,6 @@ hr {
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0));
 }
 
-.example_e {
-font-size: 20px;
-text-decoration-style: wavy;
-background: black;
-color: #e6f5ff;
-font-weight: bold;
-padding: 20px;
-border-radius: 6px;
-display: inline-block;
-transition: all 0.3s ease 0s;
-text-decoration: none;
-letter-spacing: .1em;
-text-shadow:
-  -10px -10px 15px #111,
-  20px 20px 20px #363636;
-}
-
-.example_e:hover {
-color: #404040;
-font-weight: 700;
-letter-spacing: 3px;
-background: none;
--webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
--moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-transition: all 0.3s ease 0s;
-}
-
 html {
   font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
 }
@@ -83,6 +56,32 @@ img {
 
 .jen:hover {
   box-shadow: 10px 10px 30px rgba(0,0,3,3);
+}
+
+.example_e {
+font-size: 20px;
+background: black;
+color: #e6f5ff;
+font-weight: bold;
+padding: 20px;
+border-radius: 6px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+text-decoration: none;
+letter-spacing: .1em;
+text-shadow:
+  -10px -10px 15px #111,
+  20px 20px 20px #363636;
+}
+
+.example_e:hover {
+color: #404040;
+font-weight: 700;
+letter-spacing: 3px;
+background: none;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.3s ease 0s;
 }
 
 label, input, textarea {
